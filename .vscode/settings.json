@@ -1,0 +1,79 @@
+{
+	// Prettier Options
+	"prettier.useTabs": true,
+
+	// Eslint Options
+	"eslint.format.enable": true,
+	"eslint.validate": [
+		"javascript",
+		"vue",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+
+	// Vetur Options
+	"vetur.format.defaultFormatter.html": "js-beautify-html",
+	"vetur.format.defaultFormatter.css": "prettier",
+	"vetur.format.defaultFormatter.postcss": "prettier",
+	"vetur.format.defaultFormatter.scss": "prettier",
+	"vetur.format.defaultFormatter.less": "prettier",
+	"vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+	"vetur.format.defaultFormatter.js": "prettier",
+	"vetur.format.defaultFormatter.ts": "prettier",
+	"vetur.format.scriptInitialIndent": false,
+	"vetur.format.styleInitialIndent": false,
+	"vetur.validation.templateProps": true,
+	"vetur.format.options.tabSize": 4,
+	"vetur.format.options.useTabs": true,
+	"vetur.format.defaultFormatterOptions": {
+		"prettyhtml": {
+			"printWidth": 80,
+			"singleQuote": false,
+			"wrapAttributes": true,
+			"sortAttributes": true,
+			"useTabs": true,
+			"tabWidth": 4
+		},
+
+		"js-beautify-html": {
+			"wrap_attributes": "force"
+		}
+	},
+
+	// Editor Options
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": false,
+		"source.fixAll": false
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[sass]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonr]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

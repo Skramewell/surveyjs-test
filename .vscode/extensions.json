@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"octref.vetur",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"msjsdiag.debugger-for-chrome",
+		"jasonnutter.search-node-modules",
+		"eamodio.gitlens",
+		"vscode-icons-team.vscode-icons"
+	]
+}
